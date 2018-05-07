@@ -1,2 +1,5 @@
 # Grizzlyf30.github.io
 This is my 2nd game thing after ethanf30.github.io failed.
+So I hope you enjoy my new games to come in the future.
+Also, I have a website with links to all my games, ethan355061.wixsite.com/ethanf30games
+Once again, enjoy!
