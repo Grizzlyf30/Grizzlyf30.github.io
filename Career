@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Video Game Designer </title>
+		<script src="https://simplycodingcourses.com/files/simplyjs/simply.js"></script>
+		<script>
+			function start(){
+				sjs.open("target", 1200,640);
+				var background = new sjs.Image("Images/background.png");
+				background.setSize(1200,640);
+				
+				var playM = new Audio('Sound/1up.wav');
+				var musicOn = false;
+				var toggle = true;
+
+				var startBtn = new sjs.Button("Start Presentation", function(){
+					playM.play()
+					startP = true;
+				});
+
+				startBtn.center();
+
+				var text1 = new sjs.Text("Video Game",80,"white");
+				text1.moveTo(390,160);
+
+				var text2 = new sjs.Text("Designer",60,"white");
+				text2.moveTo(480,380);
+
+				var click = new sjs.Text("Click -->",40,"white");
+				click.moveTo(300,300);
+
+			} //end start
+		</script>
+	</head>
+<body onload="start()">
+
+<div id="target" style="margin:auto;background:grey;"></div>
+</body>
+</html>
