@@ -1,0 +1,28 @@
+html {
+	font-family: pacifico;
+	background: #ff5f7b;
+}
+
+body {
+	
+}
+
+.textBtn {
+	color: white;
+	font-size: 48px;
+}
+
+.Sound {
+	background: transparent;
+	color: white;
+	border-radius: 20px;
+	width: 250px;
+	cursor: pointer;
+	height: 50px;
+	font-size: 25px;
+}
+
+.Sound:hover {
+	background: #649a24;
+	color: black;
+}
