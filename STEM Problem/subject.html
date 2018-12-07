@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Topics/style.css">
+	<title>Subjects</title>
+</head>
+<body>
+	<!-- JS -->
+	<script type="text/javascript">
+		// celebrity
+		function celebrity() {
+			var rnd = Math.floor(Math.random()*3);
+			rnd = rnd+1;
+			if (rnd == 1) {
+				window.location = "Topics/walt.html";
+			}
+			if (rnd == 2) {
+				window.location = "Topics/lee.html";
+			}
+			if (rnd == 3) {
+				window.location = "Topics/knights.html";
+			}
+		}
+			// history
+		function history() {
+			var rnd = Math.floor(Math.random()*3);
+			rnd = rnd+1;
+			if (rnd == 1) {
+				window.location = "Topics/ww2.html";
+			}
+			if (rnd == 2) {
+				window.location = "Topics/columbus.html";
+			}
+			if (rnd == 3) {
+				window.location = "Topics/depression.html";
+			}
+		}
+			// animal
+		function animal() {
+			var rnd = Math.floor(Math.random()*3);
+			rnd = rnd+1;
+			if (rnd == 1) {
+				window.location = "Topics/dolphin.html";
+			}
+			if (rnd == 2) {
+				window.location = "Topics/grizzly.html";
+			}
+			if (rnd == 3) {
+				window.location = "Topics/penguin.html";
+			}
+		}
+			// building
+		function building() {
+			var rnd = Math.floor(Math.random()*3);
+			rnd = rnd+1;
+			if (rnd == 1) {
+				window.location = "Topics/eiffel.html";
+			}
+			if (rnd == 2) {
+				window.location = "Topics/liberty.html";
+			}
+			if (rnd == 3) {
+				window.location = "Topics/needle.html";
+			}
+		}
+			// technology
+		function technology() {
+			var rnd = Math.floor(Math.random()*3);
+			rnd = rnd+1;
+			if (rnd == 1) {
+				window.location = "Topics/vr.html";
+			}
+			if (rnd == 2) {
+				window.location = "Topics/solar.html";
+			}
+			if (rnd == 3) {
+				window.location = "Topics/light.html";
+			}
+		}
+	</script>
+	<!-- Visuals -->
+    <h1 id="test" title="Press a button to randomly pick a topic.">Pick a Subject</h1>
+    <ul>
+        <div class="subjects">
+            <!-- Celebrity -->
+            <li><button onClick="celebrity()" title="Random Celebrity Alt+C" accesskey="c" class="subBTN">Celebrity</button></li>
+            <!-- History -->
+            <li><button onclick="history()" title="Random Famous Point in History Alt+H" accesskey="h" class="subBTN">History</button></li>
+            <!-- Animal -->
+            <li><button onclick="animal()" title="Random Animal Alt+A"class="subBTN Alt+A" accesskey="a">Animal</button></li>
+            <!-- Building -->
+            <li><button onclick="building()" title="Random Building Alt+B" class="subBTN" accesskey="b">Building</button></li>
+            <!-- Technology -->
+            <li><button onclick="technology()" title="Random Piece of Technology Alt+T" accesskey="t" class="subBTN">Technology</button></li>
+
+        </div>
+    </ul>
+</body>
+</html>

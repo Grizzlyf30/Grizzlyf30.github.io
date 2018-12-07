@@ -1,0 +1,58 @@
+body {
+	font-family: arial;
+	background:#587bc7;
+	text-align: center;
+	color:#95773c;
+}
+
+.indexH1one {
+	font-family: arial;
+}
+
+.indexBTN {
+	position: absolute;
+	left:43%;
+	top:35%;
+	background:transparent;
+	border-radius:20px;
+	border: 2px solid #000;
+	width:15%;
+	height:10%;
+	color: #5d4b27;
+}
+
+.indexBTN:hover {
+	background:#283654;
+	color:#efc169;
+}
+
+.subjects {
+    position:absolute;
+    left:43%;
+    top:25%;
+    width:15%;
+    height:10%;
+}
+
+ul {
+    list-style:none;
+}
+
+.subBTN {
+    background:none;
+    border:2px solid #000;
+    margin:5px;
+    border-radius:20px;
+    height:50px;
+    width:120px;
+}
+
+.subBTN:hover {
+	background:#283654;
+	color:#efc169;
+}
+
+.topic {
+	margin:20px;
+	list-style:upper-roman;
+}
