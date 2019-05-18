@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Countdown to Summer</title>
+  </head>
+  <body>
+    <div id="counter">
+      <u><header>Countdown to Summer</header></u>
+        <p id="demo1">
+          <!--Counter Goes Here-->
+        </p>
+        <p id="thanks">Thank you all for giving me such a wonderful year. <br />Being stuck with simpletons for the summer will be hard <br />but remebering the year you've given me will make it worth it knowing the next year will be a whole new thing to explore.<br /> In all, I wouldn't have made it without you guys. <br />~Ethan Evarts 2019</p>
+          <script type="text/javascript">
+            var countDownDate = new Date("May 23, 2019 12:40:00").getTime();
+
+            var x = setInterval(function(){
+
+              var now = new Date().getTime();
+
+              var distance = countDownDate - now;
+
+              var days = Math.floor(distance / (1000 * 60 * 60 *24));
+      				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              document.getElementById("demo1").innerHTML = days + "d" + " " + hours + "h" +  " "  + minutes + "m" +  " "  + seconds + "s";
+
+              if (distance < 0){
+                clearInterval(x);
+                document.getElementById("demo1").innerHTML = "It's Finally Summer! I hope everyone has a great one!";
+              }
+
+            }, 1000);
+
+          </script>
+          <style>
+            * {
+              background-color:#fca73f;
+              color:white;
+              text-align:center;
+              margin:1.7vw;
+            }
+            header {
+              font-size:8vw;
+            }
+            #demo1 {
+              font-size:4vw;
+            }
+            #thanks {
+              font-size:2.5vw;
+            }
+          </style>
+    </div>
+  </body>
+</html>
